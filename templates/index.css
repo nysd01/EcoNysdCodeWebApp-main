@@ -1,0 +1,39 @@
+  @keyframes colorchange {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    75%  {color: green;}
+    100% {color: rgb(255, 0, 247);}
+  }
+  
+  h1 {
+    animation: colorchange 3s infinite;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(28, 36, 247);
+    border-radius: 20px;
+}   
+main {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    text-align: center;
+}
+body {
+    background-color: black;
+    color: rgba(255, 255, 255, 0.911);
+    font-family: Arial, sans-serif;
+}
+#logo{
+    border-radius: 360px;
+}
+#botton :hover{
+    color: darkorange;
+}

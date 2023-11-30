@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EcoNysdCode Web App</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <header>
+        <img id="logo" src="image/logo nysd.jpg" width="100px" height="100px" alt="NYSD">
+            <h1><U>WELCOME TO ECONYSDCODE WEBAPP</U></h1>
+    </header>
+    <main> 
+        <br><br><br>
+        <h2 style="color: blueviolet;font: size 20px; font-family: Verdana, Geneva, Tahoma, sans-serif">Enter your code here!!!</h2>
+    <form method="POST">
+        <textarea name="code_input" rows="10" cols="50" style="border-color: rgb(225, 236, 6);background-color: gray;"></textarea><br>
+        <input id="botton" type="submit" value="Optimize Code" style="background-color: rgb(10, 248, 6)">
+    </form>
+
+    <div>
+        <h3>Original Code:</h3>
+        <pre>{{ original_code }}</pre>
+        <h4>CO2 Emissions for Original Code:</h4>
+        <p>{{ emissions_original }}</p>
+    </div>
+
+    {% if optimized_code %}
+    <div>
+        <h3>Optimized Code:</h3>
+        <pre>{{ optimized_code }}</pre>
+        <h4>CO2 Emissions for Optimized Code:</h4>
+        <p>{{ emissions_optimized }}</p>
+    </div>
+    {% endif %}
+
+    {% if error_message %}
+    <div>
+        <h3>Error:</h3>
+        <p>{{ error_message }}</p>
+    </div>
+    {% endif %}
+    </main>
+</body>
+</html>
