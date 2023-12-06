@@ -1,7 +1,7 @@
 
 # EconysdCodeWebApp
 
-EconysdCodeWebApp is a Flask-based web application that integrates with the OpenAI API to analyze and optimize Python code. It's designed to provide users with insights on their code's efficiency and suggest optimized versions for better performance and lower energy consumption. Additionally, the app estimates the CO2 emissions associated with running the original and optimized code.
+EcoNysdCodeWebApp is a Flask-based web application that integrates with the OpenAI API to analyze and optimize Python code. It's designed to provide users with insights on their code's efficiency and suggest optimized versions for better performance and lower energy consumption. Additionally, the app estimates the CO2 emissions associated with running the original and optimized code.
 
 ## Features
 
@@ -12,16 +12,16 @@ EconysdCodeWebApp is a Flask-based web application that integrates with the Open
 
 ## Getting Started
 
-To get started with EcoCodeWebApp, you need to have Python installed on your system. Follow these steps to run the app locally:
+To get started with EcoCodeNysdWebApp, you need to have Python installed on your system. Follow these steps to run the app locally:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/TYPW1/EcoCodeWebApp.git
+   git clone https://github.com/nysd01/EcoNysdCodeWebApp-main.git
    ```
 
 2. **Navigate to the Project Directory**:
    ```bash
-   cd EcoCodeWebApp
+   cd EcoCodeNysdWebApp
    ```
 
 3. **Install Dependencies**:
@@ -58,4 +58,4 @@ This project is open-sourced under the MIT License. See the [LICENSE](LICENSE) f
 
 ---
 
-_EcoCodeWebApp - Making code optimization and environmental impact awareness more accessible._
+_EcoCodeNysdWebApp - Making code optimization and environmental impact awareness more accessible._
